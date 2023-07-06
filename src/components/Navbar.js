@@ -1,6 +1,7 @@
 import React from "react";
 import nexusBotLogo from "../assets/nexusbot.png";
 import { Link } from "react-router-dom";
+import { FaDiscord } from "react-icons/fa";
 
 function Navbar() {
   return (
@@ -17,20 +18,13 @@ function Navbar() {
         </Link>
         <div className="flex space-x-4">
           <a
-            href="https://discord.com/api/oauth2/authorize?client_id=1088929834748616785&permissions=277025639488&scope=bot"
+            href="https://discord.gg/ruvGB8fwSn"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-red-500 hover:bg-red-600 text-white rounded-lg px-4 py-2 text-lg"
+            className="text-white rounded-lg px-4 py-2 flex items-center"
           >
-            Invite NexusBot
-          </a>
-          <a
-            href="https://github.com/danblock97/NexusBot"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-green-500 hover:bg-green-600 text-white rounded-lg px-4 py-2 text-lg"
-          >
-            View on GitHub
+            <FaDiscord className="mr-2" />
+            Join our Discord
           </a>
         </div>
       </div>
