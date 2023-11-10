@@ -61,17 +61,6 @@ function Commands() {
 						</tr>
 						<tr className="bg-gray-100">
 							<td className="px-4 py-2 text-red-400 font-bold border-b border-white/30">
-								CSGO
-							</td>
-							<td className="px-4 py-2 text-gray-800 font-bold border-b border-white/30">
-								Display player stats for your CSGO player profile
-							</td>
-							<td className="px-4 py-2 text-gray-500 font-bold border-b border-white/30">
-								/csgo 'player name'
-							</td>
-						</tr>
-						<tr className="bg-gray-100">
-							<td className="px-4 py-2 text-red-400 font-bold border-b border-white/30">
 								Fortnite
 							</td>
 							<td className="px-4 py-2 text-gray-800 font-bold border-b border-white/30">
